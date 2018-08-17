@@ -160,39 +160,39 @@ breadcrumb laterale sinistro
     text-decoration: underline;
 }
 /* logo */
-#header-wrapper #header #header-inner .navbar .navbar-inner .logo {
+.logo {
     float: left;
     height: 90px;
     margin: 0px 15px 0px 0px;
     line-height: 90px;
 }
-#header-wrapper #header #header-inner .navbar .navbar-inner .site-name {
+.site-name {
     float: left;
     height: 90px;
     line-height: 90px;
 }
-#header-wrapper #header #header-inner .navbar .navbar-inner .site-slogan {
+.site-slogan {
     color: #b5b5b5;
     float: left;
     margin-top: 30px;
     margin-left: 15px;
 }
-#header-wrapper #header #header-inner .navbar .navbar-inner .site-slogan span {
+.site-slogan span {
     border-left: 2px solid #f0f0f0;
     display: inline-block;
     line-height: 18px;
     padding-left: 15px;
 }
-#header-wrapper #header #header-inner .navbar .navbar-inner .info {
+.navbar-inner .info {
     float: none;
     padding-top: 0px;
 }
-#header-wrapper #header #header-inner .navbar .navbar-inner .site-email , #header-wrapper #header #header-inner .navbar .navbar-inner .site-phone {
+.site-email , .site-phone {
     float: left;
     line-height: 90px;
     margin-left: 40px;
 }
-#header-wrapper #header #header-inner .navbar .navbar-inner .site-email a {
+.site-email a {
     background-image: url("../img/icons/mail-gray.png");
     background-position: left center;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ breadcrumb laterale sinistro
     padding-left: 30px;
     text-decoration: none;
 }
-#header-wrapper #header #header-inner .navbar .navbar-inner #btn-nav {
+ #btn-nav {
     background-image: url("../img/btn-nav.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -214,6 +214,16 @@ breadcrumb laterale sinistro
     margin-right: 10px;
     text-indent: -9999px;
     width: 35px;
+}
+.site-phone span {
+    background-image: url("../img/icons/phone-gray.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 30px;
 }
 /* menu navigation */
 #navigation {
