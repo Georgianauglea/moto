@@ -1,0 +1,260 @@
+/*
+Sommario
+
+prima sezione 
+- stile tag principale ( body  , h1 , ... hn , a , ul , li )
+- stile classi/id principali ( container , menu )
+- eccezzioni principali 
+
+seconda sezione 
+- classi secondarie
+- id secondari
+
+*/
+
+/*
+prima parte 1
+*/
+body {
+    color: #707070;
+    font-family: "Open Sans","Arial",sans-serif;
+    font-size: 14px;
+    margin:auto;
+    line-height: 20px;
+    background-color: #f0f0f0;
+    height: 100%;
+    padding: 0px;
+}
+img {
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+a:hover, a:active {
+    outline: 0;
+}
+li:hover > a {
+    background-color: #022a3b;
+    border-top: 2px solid #06a7ea;
+    color: #06a7ea;
+    text-decoration: none;
+}
+/*
+prima parte 2
+*/
+/*
+classi
+*/
+.pull-left {
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width:1024px;
+}
+.span12 {
+    width:100%;
+}
+.span6{
+    width:50%;
+}
+.span3{
+    width:25%;
+}
+.span1{
+	width:8%;
+}
+.span2{
+	width:12%;
+}
+.nav {
+    list-style: none;
+}
+/*
+id
+*/
+
+/*
+seconda parte 1
+*/
+
+/*
+breadcrumb laterale sinistro
+*/
+.breadcrumb-wrapper {
+    background-color: #022a3b;
+    border-bottom: 1px solid transparent;
+    height: 2em;
+}
+.breadcrumb-wrapper .breadcrumb {
+    border-radius: 0px;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+.breadcrumb-wrapper .breadcrumb li {
+    text-shadow: none;
+    color: #fff;
+    font-size: 12px;
+}
+.breadcrumb > li {
+    display: inline-block;
+    *display: inline;
+    text-shadow: 0 1px 0 #ffffff;
+}
+.breadcrumb-wrapper .breadcrumb li a {
+    text-shadow: none;
+    color: #06a7ea;
+    display: inline-block;
+    padding: 3px 5px;
+}
+.breadcrumb-wrapper .account ul li a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+.breadcrumb-wrapper .account ul li:last-child a {
+    border-right: 0px;
+}
+/*menu laterale destro account*/
+#header-wrapper {
+    background-color: #fff;
+    height:7em;
+}
+.breadcrumb-wrapper .account ul {
+    margin: 0px;
+}
+.nav-tabs > li, .nav-pills > li {
+    float: left;
+}
+.nav-tabs > li > a, .nav-pills > li > a {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    line-height: 14px;
+}
+.nav > li > a {
+    display: block;
+}
+.breadcrumb-wrapper .account ul li a {
+    border-radius: 0px;
+    border-right: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 6px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.breadcrumb-wrapper .account ul li a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* logo */
+#header-wrapper #header #header-inner .navbar .navbar-inner .logo {
+    float: left;
+    height: 90px;
+    margin: 0px 15px 0px 0px;
+    line-height: 90px;
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-name {
+    float: left;
+    height: 90px;
+    line-height: 90px;
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-slogan {
+    color: #b5b5b5;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-slogan span {
+    border-left: 2px solid #f0f0f0;
+    display: inline-block;
+    line-height: 18px;
+    padding-left: 15px;
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner .info {
+    float: none;
+    padding-top: 0px;
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-email , #header-wrapper #header #header-inner .navbar .navbar-inner .site-phone {
+    float: left;
+    line-height: 90px;
+    margin-left: 40px;
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-email a {
+    background-image: url("../img/icons/mail-gray.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 17px 11px;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 30px;
+    text-decoration: none;
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner #btn-nav {
+    background-image: url("../img/btn-nav.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    float: left;
+    height: 35px;
+    margin-top: 30px;
+    margin-right: 10px;
+    text-indent: -9999px;
+    width: 35px;
+}
+/* menu navigation */
+#navigation {
+    background-color: rgba(255,255,255,0.5);
+    height:5em;
+}
+.navigation-wrapper .navigation .nav {
+    display: inline-block;
+    zoom: 1;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0px;
+}
+.navigation-wrapper .navigation .nav {
+    list-style: none;
+}
+.navigation-wrapper .navigation .nav li {
+    background-color: transparent;
+    float: left;
+    position: relative;
+}
+.navigation-wrapper .navigation .nav li .nolink, .navigation-wrapper .navigation .nav li a {
+    transition: none;
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 2px solid transparent;
+    color: #313131;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 23px;
+    padding-top: 21px;
+    white-space: nowrap;
+}
+.navigation-wrapper .navigation .nav li:hover > .nolink, .navigation-wrapper .navigation .nav li:hover > a {
+    background-color: #022a3b;
+    border-top: 2px solid #06a7ea;
+    color: #06a7ea;
+    text-decoration: none;
+}
