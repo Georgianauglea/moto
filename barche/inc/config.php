@@ -11,8 +11,8 @@
 	 
 	//connessione DB	 
 	$host = "localhost";
-	$db_user = "";
+	$db_user = "root";
 	$db_psw = "";
-	$db_name = "";
+	$db_name = "moto";
 
 ?>

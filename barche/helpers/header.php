@@ -12,9 +12,7 @@
     <title>MOTOR | Moto in vendita: moto usate, nuove - MOTOR Italia</title>
 </head>
 <body>
-<div id="wrapper-outer" >
     <div id="wrapper">
-        <div id="wrapper-inner">
             <!-- BREADCRUMB -->
             <div class="breadcrumb-wrapper">
                 <div class="container">
